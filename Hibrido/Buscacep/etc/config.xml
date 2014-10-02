@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hibrido_Buscacep>
+            <vesion>0.0.1</vesion>
+        </Hibrido_Buscacep>
+    </modules>
+    <frontend>
+        <secure_url>
+            <buscacep_ajax>/buscacep/ajax</buscacep_ajax>
+        </secure_url>
+        <routers>
+            <buscacep>
+                <use>standard</use>
+                <args>
+                    <module>Hibrido_Buscacep</module>
+                    <frontName>buscacep</frontName>
+                </args>
+            </buscacep>
+        </routers>
+    </frontend>
+</config>
