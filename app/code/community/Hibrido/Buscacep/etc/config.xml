@@ -9,6 +9,13 @@
         <secure_url>
             <buscacep_ajax>/buscacep/ajax</buscacep_ajax>
         </secure_url>
+        <layout>
+            <updates>
+                <buscacep>
+                    <file>buscacep.xml</file>
+                </buscacep>
+            </updates>
+        </layout>
         <routers>
             <buscacep>
                 <use>standard</use>

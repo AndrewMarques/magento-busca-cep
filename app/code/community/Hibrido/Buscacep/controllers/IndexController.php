@@ -18,8 +18,6 @@ class Hibrido_Buscacep_IndexController extends Mage_Core_Controller_Front_Action
      */
     public function indexAction()
     {
-        echo 'dadasda';
-        die;
         if ($this->getRequest()->getPost()) {
             $cep = $this->getRequest()->getPost('cep', false);
         } else {
