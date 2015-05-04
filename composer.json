@@ -1,0 +1,7 @@
+{
+   "name": "hibrido/mag-busca-cep",
+   "type": "magento-module",
+   "require": {
+      "magento-hackathon/magento-composer-installer": "*"
+   }
+}
