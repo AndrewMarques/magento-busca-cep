@@ -1,11 +1,11 @@
 # source files
-app/code/community/Hibrido/Buscacep/
+app/code/community/Hibrido/Buscacep/                    app/code/community/Hibrido/Buscacep/
 
 # etc
-app/etc/modules/Hibrido_Buscacep.xml
+app/etc/modules/Hibrido_Buscacep.xml                    app/etc/modules/Hibrido_Buscacep.xml
 
 # design
-app/design/frontend/base/default/layout/buscacep.xml
+app/design/frontend/base/default/layout/buscacep.xml    app/design/frontend/base/default/layout/buscacep.xml
 
 # js
-js/*    js/
+js/buscacep/                                            js/buscacep/
