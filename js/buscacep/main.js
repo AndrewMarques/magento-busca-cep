@@ -72,7 +72,7 @@
 
             var $rua = $form.find('[data-rua]');
             if ( ! $rua.length) {
-                $rua = $form.find('[name*="[street][]"]');
+                $rua = $form.find('[name*="[street][]"]').first();
                 if ( ! $rua.length) {
                     console.log('rua input not found');
                     return;
